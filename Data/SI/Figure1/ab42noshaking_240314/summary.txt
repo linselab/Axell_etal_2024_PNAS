@@ -1,0 +1,46 @@
+Thank you for using AmyloFit!
+NOTE: This version is for academic use only. For inquiries about commercial use please contact georg.meisl@googlemail.com.
+If you use AmyloFit in your work please cite: G. Meisl et al, Nat. Protoc., 2016, 11, 252-272
+ http://www.nature.com/nprot/journal/v11/n2/full/nprot.2016.010.html 
+
+Please also cite the reference for the model used. Details can be found the above paper.
+
+
+SUMMARY OF FITTING RESULTS (tab separated to paste into spreadsheet):
+
+Model used: 	Fragmentation_and_Secondary_Nucleation_noseed
+
+Data normalised: 	 yes 
+
+Mean squared error: 	 0.009181653001167312	 =sum[(y_i - f(x_i))^2]/(N_datapoints - N_free_parameters)
+
+Parameters from fit:
+Dataset	mo	kptimeskn	nc	kptimesk2	n2	kptimeskm
+Units						
+6.4	6.4	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+5	5.0	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+4	4.0	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+3.2	3.2	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+2.5	2.5	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+2	2.0	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+1.6	1.6	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+1.25	1.25	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+1	1.0	0.0022156893265211776	2.0	0.2534437777707509	2.0	2.40864373192913e-14
+
+
+Normalization:
+Dataset	Normalisation_name	Normalisation_constant	Zero_offset
+Ab42_240314quiesctxtamfit: F:	Ab42_240314quiesctxtamfit: F	Default normalisation	86492.5	29465.5
+Ab42_240314quiesctxtamfit: J:	Ab42_240314quiesctxtamfit: J	Default normalisation	66747.3	29409.5
+Ab42_240314quiesctxtamfit: N:	Ab42_240314quiesctxtamfit: N	Default normalisation	57291.7	28612.5
+Ab42_240314quiesctxtamfit: R:	Ab42_240314quiesctxtamfit: R	Default normalisation	43331.13333333333	28692.666666666668
+Ab42_240314quiesctxtamfit: V:	Ab42_240314quiesctxtamfit: V	Default normalisation	31971.700000000004	30420.6
+Ab42_240314quiesctxtamfit: Z:	Ab42_240314quiesctxtamfit: Z	Default normalisation	26830.699999999997	31360.5
+Ab42_240314quiesctxtamfit: AD:	Ab42_240314quiesctxtamfit: AD	Default normalisation	19362.1	28509.9
+Ab42_240314quiesctxtamfit: AH:	Ab42_240314quiesctxtamfit: AH	Default normalisation	17329.800000000003	28216.6
+Ab42_240314quiesctxtamfit: AL:	Ab42_240314quiesctxtamfit: AL	Default normalisation	16999.433333333334	28290.5
+
+Where the Normalisation constant, N, is the factor converting normalised data back to the units of the original input 
+and Zero offset, z, gives the baseline in units of the original data i.e. y = N*y_n + z, 
+where y is the original data and y_n the normalised data. 
+So to keep the baseline correction and simply convert back to original units you can just use N*y_n.

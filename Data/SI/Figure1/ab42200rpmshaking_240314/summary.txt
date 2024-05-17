@@ -1,0 +1,46 @@
+Thank you for using AmyloFit!
+NOTE: This version is for academic use only. For inquiries about commercial use please contact georg.meisl@googlemail.com.
+If you use AmyloFit in your work please cite: G. Meisl et al, Nat. Protoc., 2016, 11, 252-272
+ http://www.nature.com/nprot/journal/v11/n2/full/nprot.2016.010.html 
+
+Please also cite the reference for the model used. Details can be found the above paper.
+
+
+SUMMARY OF FITTING RESULTS (tab separated to paste into spreadsheet):
+
+Model used: 	Fragmentation_and_Secondary_Nucleation_noseed
+
+Data normalised: 	 yes 
+
+Mean squared error: 	 0.014182160663098698	 =sum[(y_i - f(x_i))^2]/(N_datapoints - N_free_parameters)
+
+Parameters from fit:
+Dataset	mo	kptimeskn	nc	kptimesk2	n2	kptimeskm
+Units						
+200-6.4	6.4	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-5	5.0	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-4	4.0	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-3.2	3.2	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-2.5	2.5	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-2	2.0	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-1.6	1.6	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-1.25	1.25	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+200-1	1.0	0.028608300254879752	2.0	0.20339288893416438	2.0	6.12868234169895e-17
+
+
+Normalization:
+Dataset	Normalisation_name	Normalisation_constant	Zero_offset
+Ab42_240314_200rpm_amfit: H:	Ab42_240314_200rpm_amfit: H	Default normalisation	109472.5	24638.5
+Ab42_240314_200rpm_amfit: L:	Ab42_240314_200rpm_amfit: L	Default normalisation	90798.4	24897.5
+Ab42_240314_200rpm_amfit: P:	Ab42_240314_200rpm_amfit: P	Default normalisation	75487.43333333333	24343.666666666668
+Ab42_240314_200rpm_amfit: T:	Ab42_240314_200rpm_amfit: T	Default normalisation	58955.600000000006	25796.0
+Ab42_240314_200rpm_amfit: X:	Ab42_240314_200rpm_amfit: X	Default normalisation	37823.9	23958.6
+Ab42_240314_200rpm_amfit: AB:	Ab42_240314_200rpm_amfit: AB	Default normalisation	32613.200000000004	25869.6
+Ab42_240314_200rpm_amfit: AF:	Ab42_240314_200rpm_amfit: AF	Default normalisation	18538.25	25516.25
+Ab42_240314_200rpm_amfit: AJ:	Ab42_240314_200rpm_amfit: AJ	Default normalisation	19085.916666666668	31025.083333333332
+Ab42_240314_200rpm_amfit: AN:	Ab42_240314_200rpm_amfit: AN	Default normalisation	11138.900000000001	23848.0
+
+Where the Normalisation constant, N, is the factor converting normalised data back to the units of the original input 
+and Zero offset, z, gives the baseline in units of the original data i.e. y = N*y_n + z, 
+where y is the original data and y_n the normalised data. 
+So to keep the baseline correction and simply convert back to original units you can just use N*y_n.

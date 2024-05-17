@@ -1,0 +1,35 @@
+Thank you for using AmyloFit!
+If you use these results please cite: G. Meisl et al, Nat. Protoc., 2016, 11, 252-272
+ http://www.nature.com/nprot/journal/v11/n2/full/nprot.2016.010.html 
+
+Please also cite the reference for the model used. Details can be found the above paper.
+
+
+SUMMARY OF FITTING RESULTS (tab separated to paste into spreadsheet):
+
+Model used: 	Mulit-Step_Secondary_Nucleation_Dominated_noseed
+
+Data normalised: 	 yes 
+
+Mean squared error: 	 0.017563381034558713	 =sum[(y_i - f(x_i))^2]/(N_datapoints - N_free_parameters)
+
+Parameters from fit:
+Dataset	mo	kptimeskn	nc	kptimesk2	n2	KM
+Units	conc	 conc^{-n_c} time^{-2}	unitless	conc^{-n_2-1} time^{-2}	unitless	 conc^{n_2}
+slow only AB	2.5e-06	16607778153.725416	2.0	3.712517088932313e+17	2.0	277.9768762146566
+slow AB brichos	2.5e-06	4.1485775458166626e-05	2.0	3.712517088932313e+17	2.0	277.9768762146566
+fast only AB	2.5e-06	110058028153.76418	2.0	3.712517088932313e+17	2.0	277.9768762146566
+fast AB brichos	2.5e-06	911379439.6317751	2.0	3.712517088932313e+17	2.0	277.9768762146566
+
+
+Normalization:
+Dataset	Normalisation_name	Normalisation_constant	Zero_offset
+slow: Sample X1B05:	slow: Sample X1B05	Default normalisation	963.5	215.5
+slow: Sample X2C05:	slow: Sample X2C05	Default normalisation	1316.65	273.5
+fast: Sample X1B05:	fast: Sample X1B05	Default normalisation	829.4000000000001	602.0
+fast: Sample X2C05:	fast: Sample X2C05	Default normalisation	687.8666666666667	653.1333333333333
+
+Where the Normalisation constant, N, is the factor converting normalised data back to the units of the original input 
+and Zero offset, z, gives the baseline in units of the original data i.e. y = N*y_n + z, 
+where y is the original data and y_n the normalised data. 
+So to keep the baseline correction and simply convert back to original units you can just use N*y_n.

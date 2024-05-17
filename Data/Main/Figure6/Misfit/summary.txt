@@ -1,0 +1,67 @@
+Thank you for using AmyloFit!
+If you use these results please cite: G. Meisl et al, Nat. Protoc., 2016, 11, 252-272
+ http://www.nature.com/nprot/journal/v11/n2/full/nprot.2016.010.html 
+
+Please also cite the reference for the model used. Details can be found the above paper.
+
+
+SUMMARY OF FITTING RESULTS (tab separated to paste into spreadsheet):
+
+Model used: 	noseed_univsatandfrag
+
+Data normalised: 	 yes 
+
+Mean squared error: 	 0.019001952955976967	 =sum[(y_i - f(x_i))^2]/(N_datapoints - N_free_parameters)
+
+Parameters from fit:
+Dataset	mo	kptimeskn	nc	kptimesk2	n2	kptimeskm	KE	KS	KU
+Units		conc^{-n_c} time^{-2}	unitless	conc^{-n_2-1} time^{-2}	unitless	conc^{-1} time^{-2}	conc	conc	conc
+slow 20 uM	20.0	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 15 uM	15.0	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 10 uM	10.0	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 7.5 uM	7.5	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 5 uM	5.0	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 3.75 uM	3.75	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 2.5 uM	2.5	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 1.9 uM	1.9	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 1.25 uM	1.25	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+slow 0.9 uM	0.9	7.222590284150259e-05	2.0	0.5558874519307275	2.0	1.4754489417036006e-13	100000000.0	4.773798323453203	100000000.0
+fast 20 uM	20.0	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 15 uM	15.0	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 10 uM	10.0	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 7.5 uM	7.5	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 5 uM	5.0	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 3.75 uM	3.75	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 2.5 uM	2.5	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 1.9 uM	1.9	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 1.25 uM	1.25	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+fast 0.9 uM	0.9	0.009422346694526525	2.0	0.5558874519307275	2.0	0.47403990610478697	100000000.0	4.773798323453203	100000000.0
+
+
+Normalization:
+Dataset	Normalisation_name	Normalisation_constant	Zero_offset
+slow20r2: 221018 AB42 slow unseeded: 20.0 MB01 Y:	slow20r2: 221018 AB42 slow unseeded: 20.0 MB01 Y	Default normalisation	1.0	0.0
+slow15: 221018 AB42 slow unseeded: 15.0 MB02 Y:	slow15: 221018 AB42 slow unseeded: 15.0 MB02 Y	Default normalisation	1.0	0.0
+slow10r2: 221018 AB42 slow unseeded: 10.0 MB03 Y:	slow10r2: 221018 AB42 slow unseeded: 10.0 MB03 Y	Default normalisation	1.0	0.0
+slow7p5r2: 221018 AB42 slow unseeded: 7.5 MB04 Y:	slow7p5r2: 221018 AB42 slow unseeded: 7.5 MB04 Y	Default normalisation	1.0	0.0
+slow5r2: 221018 AB42 slow unseeded: 5.0 MB05 Y:	slow5r2: 221018 AB42 slow unseeded: 5.0 MB05 Y	Default normalisation	1.0	0.0
+slow3p75r2: 221018 AB42 slow unseeded: 3.75 MB06 Y:	slow3p75r2: 221018 AB42 slow unseeded: 3.75 MB06 Y	Default normalisation	1.0	0.0
+slow2p5r2: 221018 AB42 slow unseeded: 2.5 MB07 Y:	slow2p5r2: 221018 AB42 slow unseeded: 2.5 MB07 Y	Default normalisation	1.0	0.0
+slow1p9r2: 221018 AB42 slow unseeded: 1.88 MB08 Y:	slow1p9r2: 221018 AB42 slow unseeded: 1.88 MB08 Y	Default normalisation	1.0	0.0
+slow1p25r2: 221018 AB42 slow unseeded: 1.25 MB09 Y:	slow1p25r2: 221018 AB42 slow unseeded: 1.25 MB09 Y	Default normalisation	1.0	0.0
+slow0p9r2: 221018 AB42 slow unseeded: 0.94 MB10 Y:	slow0p9r2: 221018 AB42 slow unseeded: 0.94 MB10 Y	Default normalisation	1.0	0.0
+fast20r2: 221018 ab42 fast unseeded: 20.0 MB01 Y:	fast20r2: 221018 ab42 fast unseeded: 20.0 MB01 Y	Default normalisation	1.0	0.0
+fast15r2: 221018 ab42 fast unseeded: 15.0 MB02 Y:	fast15r2: 221018 ab42 fast unseeded: 15.0 MB02 Y	Default normalisation	1.0	0.0
+fast10r2: 221018 ab42 fast unseeded: 10.0 MB03 Y:	fast10r2: 221018 ab42 fast unseeded: 10.0 MB03 Y	Default normalisation	1.0	0.0
+fast7p5r2: 221018 ab42 fast unseeded: 7.5 MB04 Y:	fast7p5r2: 221018 ab42 fast unseeded: 7.5 MB04 Y	Default normalisation	1.0	0.0
+fast5r2: 221018 ab42 fast unseeded: 5.0 MB05 Y:	fast5r2: 221018 ab42 fast unseeded: 5.0 MB05 Y	Default normalisation	1.0	0.0
+fast3p75r2: 221018 ab42 fast unseeded: 3.75 MB06 Y:	fast3p75r2: 221018 ab42 fast unseeded: 3.75 MB06 Y	Default normalisation	0.9218832193582324	-0.0007890583903209996
+fast2p5r2: 221018 ab42 fast unseeded: 2.5 MB07 Y:	fast2p5r2: 221018 ab42 fast unseeded: 2.5 MB07 Y	Default normalisation	1.0	0.0
+fast1p9r2: 221018 ab42 fast unseeded: 1.88 MB08 Y:	fast1p9r2: 221018 ab42 fast unseeded: 1.88 MB08 Y	Default normalisation	1.0	0.0
+fast1p25r2: 221018 ab42 fast unseeded: 1.25 MB09 Y:	fast1p25r2: 221018 ab42 fast unseeded: 1.25 MB09 Y	Default normalisation	1.0	0.0
+fast0p9r2: 221018 ab42 fast unseeded: 0.94 MB10 Y:	fast0p9r2: 221018 ab42 fast unseeded: 0.94 MB10 Y	Default normalisation	1.0	0.0
+
+Where the Normalisation constant, N, is the factor converting normalised data back to the units of the original input 
+and Zero offset, z, gives the baseline in units of the original data i.e. y = N*y_n + z, 
+where y is the original data and y_n the normalised data. 
+So to keep the baseline correction and simply convert back to original units you can just use N*y_n.
