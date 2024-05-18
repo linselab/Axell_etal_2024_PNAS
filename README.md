@@ -4,3 +4,8 @@ This is a repository with all the plots and plotted data included in the paper "
 *These authors contributed equally
 
 #Corresponding author
+
+
+
+[![DOI](https://zenodo.org/badge/801999152.svg)](https://zenodo.org/doi/10.5281/zenodo.11214615)
+
